@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         (APP.trakt)TraktExternalProvider
 // @namespace    DK
-// @version      2.3.0
+// @version      2.3.1
 // @description  Adds Torrent+Streaming websites. Ublock origin interference
 // @match        https://app.trakt.tv/*
 // @match        https://trakt.tv/*
@@ -486,5 +486,6 @@ link.addEventListener("click", function(e) {
     if (mo) mo.disconnect();
     if (ro) ro.disconnect();
   });
+
 
 })();
